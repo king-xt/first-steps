@@ -1,3 +1,16 @@
+
+# First react app
+
+## Notes on git from dev homie
+
+1. Make changes
+2. `git status`, whenever we want to see what changed)
+3. `git add` files <-- adds changes we want to save
+4. `git commit -m "Message about what changed"`
+5. `git push origin master` <-- saves work by pushing it
+
+## Create React App documentation follows
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
