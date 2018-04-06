@@ -7,7 +7,7 @@
 2. `git status`, whenever we want to see what changed)
 3. `git add` files <-- adds changes we want to save
 4. `git commit -m "Message about what changed"`
-5. `git push origin master` <-- saves work by pushing it
+5. `git push origin master` <-- saves work by pushing itself
 
 ## Create React App documentation follows
 

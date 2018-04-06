@@ -7,10 +7,13 @@ import './App.css';
 class App extends Component {
   state = { 
     isOld: true,
-    
+    name: ""
   }
 
-  greet(name) {
+  greetSomeone(name = '  blank') {
+
+    this.setState({name: name})
+
     console.log("Hi, " + name)
   }
   render() {
@@ -29,7 +32,7 @@ class App extends Component {
             alt="logo" 
             onClick={() => this.greetSomeone(prompt())} />
 
-          <h1 className="App-title">Console greeting!</h1>
+          <h1 className="App-title">Name: {this.state.name}</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
